@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF57C58F2D55D5F000EBAB9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF57C58E2D55D5EB00EBAB9D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BF05FDE52D54A02E00D53DC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		BF05FDCE2D54A02D00D53DC1 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF05FDE42D54A02E00D53DC1 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF05FDEE2D54A02E00D53DC1 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF57C58E2D55D5EB00EBAB9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -56,6 +61,11 @@
 		BF05FDF12D54A02E00D53DC1 /* CounterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CounterUITests;
+			sourceTree = "<group>";
+		};
+		BF57C5902D55D5F700EBAB9D /* image */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +98,8 @@
 		BF05FDC52D54A02D00D53DC1 = {
 			isa = PBXGroup;
 			children = (
+				BF57C5902D55D5F700EBAB9D /* image */,
+				BF57C58E2D55D5EB00EBAB9D /* README.md */,
 				BF05FDD02D54A02D00D53DC1 /* Counter */,
 				BF05FDE72D54A02E00D53DC1 /* CounterTests */,
 				BF05FDF12D54A02E00D53DC1 /* CounterUITests */,
@@ -122,6 +134,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BF05FDD02D54A02D00D53DC1 /* Counter */,
+				BF57C5902D55D5F700EBAB9D /* image */,
 			);
 			name = Counter;
 			packageProductDependencies = (
@@ -225,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF57C58F2D55D5F000EBAB9D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
