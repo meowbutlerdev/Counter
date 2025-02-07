@@ -12,13 +12,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberLabel: UILabel!
     
     @IBAction func plusButtonTapped(_ sender: UIButton) {
-        count += 1
-        numberLabel.text = String(count)
+        if count < 10 {
+            count += 1
+            numberLabel.text = String(count)
+        }
     }
     
     @IBAction func minusButtonTapped(_ sender: UIButton) {
-        count -= 1
-        numberLabel.text = String(count)
+        if count > -10 {
+            count -= 1
+            numberLabel.text = String(count)
+        }
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
