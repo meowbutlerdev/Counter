@@ -91,7 +91,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="minusButton" destination="Jfe-AM-8kS" id="s4L-k7-vvR"/>
                         <outlet property="numberLabel" destination="r95-bl-FmM" id="54X-Fi-oc1"/>
+                        <outlet property="plusButton" destination="MmY-DF-sao" id="9ZC-tM-JgJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
